@@ -1,0 +1,104 @@
+body {
+    font-family: ubuntu;
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/barbell-1839086_1920.jpg');
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    text-align: center;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    left: 60px;
+}
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    color: red;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 95px;
+    height: 80px;
+    filter: invert(100%);
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 7px 16px;
+    margin: 0px 9px;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: ubuntu;
+}
+
+.btn:hover {
+    background-color: rgb(43, 43, 43)
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 244px 35px;
+    padding: 24px 27px;
+    width: 29%;
+    display: block;
+    border-radius: 25px;
+}
+
+.form-group input {
+    font-family: ubuntu;
+    margin: 5px auto;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 6px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .btn {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
